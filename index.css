@@ -1,0 +1,113 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  background-image: url(https://i.pinimg.com/originals/57/fd/02/57fd02f833f0c5b906f5032b0f2314dc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+}
+.item {
+    padding: 5px 20px;
+    border-radius: 14px;
+}
+.item:hover {
+    background: rgba(255, 255, 255, 0.171);
+    cursor: pointer;
+}
+input{
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+}
+::placeholder {
+  color: white;
+  /* padding-left: 20px; */
+}
+.container {
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+  justify-content: center;
+  align-content: center;
+  flex-flow: column wrap;
+  
+}
+#icon{
+    margin: auto;
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#usn {
+  width: 90%;
+  height: 9%;
+  border-radius: 24px;
+  /* margin: auto; */
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+}
+#pwd {
+  margin-top: 20px;
+  width: 90%;
+  height: 9%;
+  border-radius: 24px;
+  /* margin: auto; */
+  background-color: rgba(255, 255, 255, 0.199);
+  border: none;
+}
+#gs {
+  margin-top: 20px;
+  width: 95%;
+  height: 9%;
+  border-radius: 24px;
+  color: white;
+  font-weight: bold;
+  background-color: #ff3c46;
+  border: none;
+  cursor: pointer;
+}
+#kli{
+    display: inline-block;
+    width:50%;
+    margin-top: 20px;
+    color: rgb(206, 206, 206);
+}
+#fp{
+    margin-left: 24px;
+    color: rgb(204, 204, 204);
+    width: 50%;
+    cursor: pointer;
+}
+#ca{
+    margin-left: 5px;
+    display: inline-block;
+    width: 48%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#nh{
+    margin-left: 91px;
+    color: white;
+    font-weight: bolder;
+    align-content: center;
+    cursor: pointer;
+}
+.bitem{
+    color: white;
+    display: inline-block;
+    margin-top: 50px;
+}
+#bitem1{
+    margin-left: 100px;
+}
+#bitem2{
+    margin-left: 450px;
+}
